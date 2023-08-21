@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 296810909}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,6 +160,11 @@ MonoBehaviour:
   speed: 10
   speedRun: 21
   forceJump: 15
+  jumpScaleY: 1.5
+  jumpScaleX: 0.7
+  animationJumpDuration: 0.3
+  ease: 27
+  tagToLook: Floor
 --- !u!61 &296810910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -420,7 +425,7 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0
+  m_DeadZoneWidth: 0.25
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
@@ -532,7 +537,7 @@ GameObject:
   - component: {fileID: 1009010868}
   m_Layer: 0
   m_Name: Floor (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -641,7 +646,7 @@ GameObject:
   - component: {fileID: 1428002539}
   m_Layer: 0
   m_Name: Floor (2)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -750,7 +755,7 @@ GameObject:
   - component: {fileID: 1642336496}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
