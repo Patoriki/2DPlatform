@@ -11,6 +11,7 @@ public class ItemCollactableBase : MonoBehaviour
     public float animationJumpDuration = 0.3f;
     public Ease ease = Ease.OutBack;
     public string compareTag = "Player";
+    public CircleCollider2D coinCollider;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,6 +41,7 @@ public class ItemCollactableBase : MonoBehaviour
 
     private IEnumerator DestroyCoin()
     {
+        coinCollider.enabled = false;
         yield return new WaitForSeconds(0.3f);
         gameObject.SetActive(false);
     }

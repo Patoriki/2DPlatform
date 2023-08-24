@@ -61,7 +61,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c816d41c6f9224998902f0a3aa3a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpScaleY: 0
+  jumpScaleX: 0
+  animationJumpDuration: 0.3
+  ease: 27
   compareTag: Player
+  coinCollider: {fileID: 2871298555507827982}
 --- !u!1 &3463491350619783168
 GameObject:
   m_ObjectHideFlags: 0
