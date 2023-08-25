@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8716813894429546288}
   - component: {fileID: 2871298555507827982}
   - component: {fileID: 3469922902976225125}
+  - component: {fileID: 711135243578906946}
   m_Layer: 0
   m_Name: PFB_Coin
   m_TagString: Untagged
@@ -67,6 +68,17 @@ MonoBehaviour:
   ease: 27
   compareTag: Player
   coinCollider: {fileID: 2871298555507827982}
+--- !u!210 &711135243578906946
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2337926980088916759}
+  m_Enabled: 1
+  m_SortingLayerID: -1060506513
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1 &3463491350619783168
 GameObject:
   m_ObjectHideFlags: 0
