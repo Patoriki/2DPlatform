@@ -321,6 +321,7 @@ GameObject:
   - component: {fileID: 8073972946613542793}
   - component: {fileID: 2403329696302037006}
   - component: {fileID: 8973268433268138875}
+  - component: {fileID: 6230997869485539151}
   m_Layer: 0
   m_Name: PFB_Enemy_1
   m_TagString: Untagged
@@ -381,6 +382,27 @@ SortingGroup:
   m_SortingLayerID: 1168579385
   m_SortingLayer: 4
   m_SortingOrder: 0
+--- !u!114 &6230997869485539151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090786764695304946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c04a85c62c5f1b49a653482b1f04085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderers:
+  - {fileID: 3294411287784764205}
+  - {fileID: 4058282757918593861}
+  - {fileID: 2944600070154927280}
+  - {fileID: 8622257899716607877}
+  - {fileID: 4402658883949824882}
+  - {fileID: 3096084783782573798}
+  color: {r: 1, g: 0.3915094, b: 0.3915094, a: 1}
+  duration: 0.05
 --- !u!1 &3840710139504160895
 GameObject:
   m_ObjectHideFlags: 0
